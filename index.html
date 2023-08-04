@@ -26,7 +26,7 @@
     let t = window.Telegram.WebApp.initDataUnsafe
      document.getElementById("2").innerText=t.user.id
     
-     document.getElementById("1").innerText=String(t.user.photo_url).length
+     document.getElementById("1").innerText=JSON.stringify(t.user)
      
 </script>
 </html>
