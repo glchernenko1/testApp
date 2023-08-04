@@ -26,7 +26,7 @@
     let t = window.Telegram.WebApp.initDataUnsafe
      document.getElementById("2").innerText=t.user.id
     
-     document.getElementById("1").innerText=len(String(t.chat.photo_url))
+     document.getElementById("1").innerText=String(t.chat.photo_url).length
      
 </script>
 </html>
